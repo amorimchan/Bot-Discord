@@ -72,9 +72,26 @@ client.on("message", msg =>
     //else if(msg.content == "")
     /*seus else if vem aqui*/
     }
-    if (msg.content.toLowerCase().includes("ratatui")) {
+    else if (msg.content.toLowerCase().includes("ratatui")) {
       // Only try to join the sender's voice channel if they are in one themselves
         play("https://www.youtube.com/watch?v=p_hdmt4vpBo", msg);
+      }
+    else if (msg.content.toLowerCase().includes("mike")) {
+      // Only try to join the sender's voice channel if they are in one themselves
+        play("https://www.youtube.com/watch?v=Jlfn6njGAk4", msg);
+      }
+    else if (msg.content.toLowerCase().includes("racionais")) {
+      // Only try to join the sender's voice channel if they are in one themselves
+       play("https://www.youtube.com/watch?v=B3gAZvncfa0", msg);
+      }
+
+    else if (msg.content.toLowerCase().includes("ghoul")) {
+      // Only try to join the sender's voice channel if they are in one themselves
+       play("https://www.youtube.com/watch?v=feLJCDdftn4", msg);
+      }
+    else if (msg.content.toLowerCase().includes("poeta")) {
+      // Only try to join the sender's voice channel if they are in one themselves
+       play("https://www.youtube.com/watch?v=7CUPoQMau0g", msg);
       }
 });
 
