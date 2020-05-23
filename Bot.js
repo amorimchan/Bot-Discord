@@ -28,6 +28,7 @@ client.on("message", msg =>
       msg.reply("2000 pra vc cuzao");
     }
 
+
     else if(msg.content.toLowerCase().includes("chaves")){
       embed
       .setColor('#FFFFFF')
@@ -53,45 +54,57 @@ client.on("message", msg =>
     else if (msg.content.toLowerCase().includes("idalgo")){
       msg.channel.send("mais conhecido nas boca de fumo por tom moletom");
     }
+
+    else if(msg.content.toLowerCase().includes("evangelion é ruim")){
+      msg.reply("não poderia concordar mais");   
+    }
+
+    else if(msg.content.toLowerCase().includes("evangelion é bom")){
+      msg.reply("bom teu cu");
+    }
+    
+    else if(msg.content.toLowerCase().includes("jogar")){
+      msg.channel.send("cala boca ai gueymer");
+    }
     
 
     if (!msg.guild) return;
     if (msg.content.toLowerCase().includes("gragas")) {
     // Only try to join the sender's voice channel if they are in one themselves
-      play("https://www.youtube.com/watch?v=dSsUCZbzmq8", msg);
+      play('https://www.youtube.com/watch?v=dSsUCZbzmq8', msg);
     }
 
     else if (msg.content.toLowerCase().includes("ronaldo")) {
       // Only try to join the sender's voice channel if they are in one themselves
-      play("https:www.youtube.com/watch?v=TFdO7oqkMzI", msg);
+      play('https:www.youtube.com/watch?v=TFdO7oqkMzI', msg);
     }
 
     else if (msg.content.toLowerCase().includes("covid")) 
         {
-          play("https://www.youtube.com/watch?v=yyGKsD5uBVg", msg);
+          play('https://www.youtube.com/watch?v=yyGKsD5uBVg', msg);
     //else if(msg.content == "")
     /*seus else if vem aqui*/
     }
     else if (msg.content.toLowerCase().includes("ratatui")) {
       // Only try to join the sender's voice channel if they are in one themselves
-        play("https://www.youtube.com/watch?v=p_hdmt4vpBo", msg);
+        play('https://www.youtube.com/watch?v=p_hdmt4vpBo', msg);
       }
     else if (msg.content.toLowerCase().includes("mike")) {
       // Only try to join the sender's voice channel if they are in one themselves
-        play("https://www.youtube.com/watch?v=Jlfn6njGAk4", msg);
+        play('https://www.youtube.com/watch?v=Jlfn6njGAk4', msg);
       }
     else if (msg.content.toLowerCase().includes("racionais")) {
       // Only try to join the sender's voice channel if they are in one themselves
-       play("https://www.youtube.com/watch?v=B3gAZvncfa0", msg);
+       play('https://www.youtube.com/watch?v=B3gAZvncfa0', msg);
       }
 
     else if (msg.content.toLowerCase().includes("ghoul")) {
       // Only try to join the sender's voice channel if they are in one themselves
-       play("https://www.youtube.com/watch?v=feLJCDdftn4", msg);
+       play('https://www.youtube.com/watch?v=feLJCDdftn4', msg);
       }
     else if (msg.content.toLowerCase().includes("poeta")) {
       // Only try to join the sender's voice channel if they are in one themselves
-       play("https://www.youtube.com/watch?v=7CUPoQMau0g", msg);
+       play('https://www.youtube.com/watch?v=7CUPoQMau0g', msg);
       }
 });
 
